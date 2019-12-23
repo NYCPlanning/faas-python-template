@@ -1,0 +1,14 @@
+language: python3-gdal
+fprocess: python3 index.py
+build_options:
+  - name: dev
+    packages: 
+      - make
+      - automake
+      - gcc
+      - g++
+      - python3-dev
+      - python3-pip
+      - git
+welcome_message: |
+  Hey! This is based on osgeo/gdal:ubuntu-small-latest
